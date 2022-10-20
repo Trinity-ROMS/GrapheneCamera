@@ -9,12 +9,19 @@
 - Videography
 - QR Scan
 - Barcode Scan
-<br>
+
+</b><br>
 <h2>Build:</h2>
-Add this in your <i>device.mk</i> file.
-</b>
+<b>Clone in your Device Tree i.e inside <i>device/devicename/codename</i></b>
 
 ```
+git clone https://github.com/Trinity-ROMS/GrapheneCamera -b main GrapheneCamera
+```
+
+<b>Add this in your <i>device.mk</i> file.</b>
+
+```
+# Graphene Camera
 PRODUCT_PACKAGES += \
     GrapheneOSCamera
 ```
